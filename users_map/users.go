@@ -1,4 +1,4 @@
-package users_map
+package users
 
 var (
 	users map[int]string

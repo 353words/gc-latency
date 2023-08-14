@@ -1,4 +1,4 @@
-package users_slice
+package users
 
 var (
 	users []string

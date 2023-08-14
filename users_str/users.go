@@ -1,4 +1,4 @@
-package users_str
+package users
 
 import (
 	"strings"
