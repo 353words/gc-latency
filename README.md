@@ -30,4 +30,4 @@ total gc time: 14.618716ms (median: 131.67µs)
 ```
 
 See results with `GODEBUG=gctrace=1` in the [out](out) directory.
-JSON files generated with [gogctrace](github.com/tebeka/gctrace/cmd/gogctrace).
+JSON files generated with [gogctrace](https://pkg.go.dev/github.com/tebeka/gctrace/cmd/gogctrace).
