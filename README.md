@@ -4,9 +4,9 @@ Showing how you to use GC friendly data.
 
 Use case: User store that returns user (string) from user ID (int).
 
-- In `map` we use a `map[int]string`
-- In `slice` we use a `[]string` where the location on the slice is the ID
-- In `str` we build one big string with all user names and also have `indices []int` which hold the end index for each user
+- `users_map` uses a `map[int]string`
+- `users_slice` use a `[]string` where the location on the slice is the ID
+- `users_str` builds one big string with all user names and also have `indices []int` which hold the end index for each user
 
 Run all with `make`
 
