@@ -4,9 +4,10 @@ import (
 	"fmt"
 	"log"
 	"runtime"
+	"sort"
 	"time"
 
-	users "github.com/353words/gc-latency/users_str"
+	"github.com/353words/gc-latency/users"
 )
 
 func userName(id int) string {
@@ -38,13 +39,27 @@ func main() {
 	for _, d := range durations {
 		total += d
 	}
-	fmt.Println(total)
+	// avg := time.Duration(float64(total) / float64(len(durations)))
+	fmt.Printf("total gc time: %v (median: %v)\n", total, median(durations))
 
 	/*
 		var ms runtime.MemStats
 		runtime.ReadMemStats(&ms)
 		fmt.Println("GC pause", ms.PauseTotalNs, "ns")
 	*/
+}
+
+func median(ds []time.Duration) time.Duration {
+	cp := make([]time.Duration, len(ds))
+	copy(cp, ds)
+	sort.Slice(cp, func(i, j int) bool { return cp[i] < cp[j] })
+
+	i := len(cp) / 2
+	if len(cp)%2 == 1 {
+		return cp[i]
+	}
+
+	return (cp[i] + cp[i+1]) / 2
 }
 
 // 4MB of memory at least (so GC will trigger)

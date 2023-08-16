@@ -12,17 +12,22 @@ Run all with `make`
 
 Results on my machine:
 ```
-$ make
-go run ./map
+=== map ===
+go run .
 allocated 1000000 users
 running 100 GC cycles
-3.260994646s
-go run ./slice
+total gc time: 4.528541076s (median: 46.151329ms)
+=== slice ===
+go run .
 allocated 1000000 users
 running 100 GC cycles
-1.848372573s
-go run ./str
+total gc time: 2.216892788s (median: 22.061863ms)
+=== str ===
+go run .
 allocated 1000000 users
 running 100 GC cycles
-10.260762ms
+total gc time: 14.618716ms (median: 131.67µs)
 ```
+
+See results with `GODEBUG=gctrace=1` in the [out](out) directory.
+JSON files generated with [gogctrace](github.com/tebeka/gctrace/cmd/gogctrace).

@@ -1,0 +1,20 @@
+cpu.mark_assist
+	map  :    99100.000
+	slice:    53948.276
+	str  :    40528.926
+cpu.mark_background
+	map  : 38432500.000
+	slice: 18509482.759
+	str  :   412380.165
+cpu.mark_idle
+	map  :  3849391.667
+	slice:   175508.621
+	str  :   143743.802
+cpu.mark_termination
+	map  :   102233.333
+	slice:    74094.828
+	str  :    95909.091
+cpu.sweep_termination
+	map  :   379583.333
+	slice:  5430948.276
+	str  :   496033.058
