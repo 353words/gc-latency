@@ -3,6 +3,7 @@ all:
 
 url = http://localhost:8080/users/353
 stress:
+	@ls -l users | awk '{print $$NF}' # current users implementation
 	curl -f $(url)  # fail is server is not up
 	hey -z 10s $(url)
 

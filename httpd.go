@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 	"log"
-	"math/rand"
 	"net/http"
 	"os"
+	"runtime"
 	"strconv"
 	"time"
 
@@ -41,6 +41,7 @@ func (s *Server) userHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+/* Generate random data so it'll trigger GC
 func spammer() {
 	var s []float64
 	for {
@@ -52,6 +53,15 @@ func spammer() {
 		}
 	}
 }
+*/
+
+// Trigger GC from time to time
+func GCer() {
+	for {
+		time.Sleep(100 * time.Millisecond)
+		runtime.GC()
+	}
+}
 
 func main() {
 	const size = 1_000_000
@@ -60,7 +70,7 @@ func main() {
 	}
 	http.HandleFunc("/users/", srv.userHandler)
 
-	go spammer()
+	go GCer()
 
 	addr := ":8080"
 	log.Printf("info: starting server with %d users on %s", size, addr)

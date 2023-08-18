@@ -1,4 +1,4 @@
-# gc-latency
+# Writing GC Friendly Code
 
 Showing how you to use GC friendly data.
 
@@ -8,26 +8,18 @@ Use case: User store that returns user (string) from user ID (int).
 - `users_slice` use a `[]string` where the location on the slice is the ID
 - `users_str` builds one big string with all user names and also have `indices []int` which hold the end index for each user
 
-Run all with `make`
+To bench a specific implementation, say "map", run:
 
-Results on my machine:
-```
-=== map ===
-go run .
-allocated 1000000 users
-running 100 GC cycles
-total gc time: 4.528541076s (median: 46.151329ms)
-=== slice ===
-go run .
-allocated 1000000 users
-running 100 GC cycles
-total gc time: 2.216892788s (median: 22.061863ms)
-=== str ===
-go run .
-allocated 1000000 users
-running 100 GC cycles
-total gc time: 14.618716ms (median: 131.67µs)
-```
+    make map
+    # In another terminal
+    make stress
 
-See results with `GODEBUG=gctrace=1` in the [out](out) directory.
-JSON files generated with [gogctrace](https://pkg.go.dev/github.com/tebeka/gctrace/cmd/gogctrace).
+FIXME: I'm not sure that speedup is due to GC. If I run the benchmark in each implementation I see on my machine:
+- map  : BenchmarkByID-12    	146152878	         8.117 ns/op	       0 B/op	       0 allocs/op
+- slice: BenchmarkByID-12    	871609362	         1.379 ns/op	       0 B/op	       0 allocs/op
+- str  : BenchmarkByID-12    	524216815	         2.309 ns/op	       0 B/op	       0 allocs/op
+
+And for `make stress` I see:
+- map  : Requests/sec:	139456.5474
+- slice: Requests/sec:	131119.3114
+- str  : Requests/sec:	141903.6378
