@@ -1,32 +1,56 @@
 package users
 
 import (
+	"fmt"
 	"strings"
 )
 
-var (
-	users   string
-	indices []int
+const (
+	nameFmt = "user-%06d"
 )
 
-func AllocateUsers(size int, userName func(int) string) {
+type User struct {
+	ID   int
+	Name string
+}
+
+type DB struct {
+	users   string
+	indices []int
+}
+
+func NewDB(size int) *DB {
 	var buf strings.Builder
-	indices = make([]int, size)
+	indices := make([]int, size)
 	s := 0
 	for i := 0; i < size; i++ {
 		indices[i] = s
-		u := userName(i)
+		u := fmt.Sprintf("user-%06d", i)
 		buf.WriteString(u)
 		s += len(u)
 	}
-	users = buf.String()
+
+	db := DB{
+		indices: indices,
+		users:   buf.String(),
+	}
+	return &db
 }
 
-func ByID(id int) string {
-	start := indices[id]
-	if id == len(indices) {
-		return users[start:]
+// ByID returns user name from id.
+func (db *DB) ByID(id int) (User, bool) {
+	if id < 0 || id > len(db.indices) {
+		return User{}, false
 	}
-	end := indices[id+1]
-	return users[start:end]
+
+	start := db.indices[id]
+	var name string
+	if id == len(db.indices) {
+		name = db.users[start:]
+	} else {
+		end := db.indices[id+1]
+		name = db.users[start:end]
+	}
+
+	return User{ID: id, Name: name}, true
 }
