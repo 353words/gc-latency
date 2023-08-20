@@ -1,0 +1,13 @@
+go clean -cache -testcache
+go test -bench . -count 5
+goos: linux
+goarch: amd64
+pkg: github.com/353words/gc-latency
+cpu: 12th Gen Intel(R) Core(TM) i7-1255U
+BenchmarkGC-12    	    6969	    208055 ns/op
+BenchmarkGC-12    	    4867	    213276 ns/op
+BenchmarkGC-12    	    5511	    217604 ns/op
+BenchmarkGC-12    	    5580	    217281 ns/op
+BenchmarkGC-12    	    5310	    219810 ns/op
+PASS
+ok  	github.com/353words/gc-latency	6.368s

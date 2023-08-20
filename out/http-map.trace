@@ -1,0 +1,246 @@
+gc 1 @0.010s 2%: 0.13+0.73+0.029 ms clock, 1.6+0.14/0.90/0+0.35 ms cpu, 3->4->0 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.012s 4%: 0.086+0.29+0.049 ms clock, 1.0+1.1/0.56/0+0.58 ms cpu, 3->3->0 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.013s 5%: 0.065+0.63+0.11 ms clock, 0.78+0.45/0.98/0+1.3 ms cpu, 3->4->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 4 @0.014s 6%: 0.038+0.48+0.043 ms clock, 0.46+0.95/0.84/0+0.51 ms cpu, 3->3->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 5 @0.015s 8%: 0.052+0.42+0.084 ms clock, 0.63+1.3/0.69/0+1.0 ms cpu, 3->3->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 6 @0.016s 8%: 0.10+1.7+0.044 ms clock, 1.2+1.1/0.93/0+0.52 ms cpu, 3->5->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 7 @0.019s 9%: 0.043+0.62+0.029 ms clock, 0.52+0.60/1.0/0.032+0.35 ms cpu, 4->5->1 MB, 5 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 8 @0.022s 9%: 0.073+0.35+0.027 ms clock, 0.87+0.74/0.74/0.46+0.32 ms cpu, 3->3->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 9 @0.023s 10%: 0.047+0.46+0.096 ms clock, 0.57+1.3/0.76/0+1.1 ms cpu, 3->3->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 10 @0.024s 10%: 0.070+1.1+0.053 ms clock, 0.85+1.3/1.0/0.16+0.63 ms cpu, 3->5->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 11 @0.026s 11%: 0.13+1.3+0.028 ms clock, 1.5+1.3/1.1/0+0.34 ms cpu, 3->5->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 12 @0.028s 11%: 0.041+1.3+0.050 ms clock, 0.49+0.97/1.1/0+0.60 ms cpu, 3->5->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 13 @0.030s 11%: 0.071+0.92+0.10 ms clock, 0.86+0.85/1.4/0.32+1.2 ms cpu, 3->5->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 14 @0.032s 12%: 0.052+1.5+0.083 ms clock, 0.62+1.5/0.91/0+0.99 ms cpu, 3->5->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 15 @0.034s 12%: 0.042+0.86+0.047 ms clock, 0.50+1.0/1.1/0+0.56 ms cpu, 4->5->2 MB, 5 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 16 @0.036s 12%: 0.073+0.69+0.054 ms clock, 0.87+0.61/1.5/0.045+0.65 ms cpu, 3->4->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 17 @0.037s 12%: 0.078+1.0+0.060 ms clock, 0.94+0.73/1.3/0+0.73 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 18 @0.039s 13%: 0.064+1.2+0.065 ms clock, 0.77+1.8/1.1/0+0.78 ms cpu, 4->5->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 19 @0.041s 13%: 0.053+0.80+0.082 ms clock, 0.64+1.4/1.2/0+0.98 ms cpu, 4->5->2 MB, 5 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 20 @0.042s 13%: 0.046+1.3+0.079 ms clock, 0.55+1.5/1.9/0+0.95 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 21 @0.044s 14%: 0.099+1.2+0.073 ms clock, 1.1+1.1/2.0/0.003+0.87 ms cpu, 4->5->2 MB, 5 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 22 @0.047s 14%: 0.062+1.7+0.046 ms clock, 0.74+1.5/2.2/0+0.56 ms cpu, 4->6->3 MB, 5 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 23 @0.049s 14%: 0.077+0.84+0.078 ms clock, 0.92+1.4/1.8/0.18+0.94 ms cpu, 5->6->2 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 24 @0.051s 14%: 0.037+0.58+0.056 ms clock, 0.45+1.3/1.2/1.0+0.68 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 25 @0.054s 14%: 0.049+0.47+0.025 ms clock, 0.59+0.66/1.1/1.0+0.30 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 26 @0.056s 14%: 0.049+0.43+0.018 ms clock, 0.59+0.44/1.0/1.7+0.22 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 27 @0.059s 13%: 0.031+0.49+0.017 ms clock, 0.37+0.33/1.1/1.6+0.21 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 28 @0.062s 13%: 0.045+0.46+0.014 ms clock, 0.54+0.21/1.0/1.6+0.17 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 29 @0.069s 12%: 0.029+0.47+0.019 ms clock, 0.34+0.020/1.2/1.9+0.23 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 30 @0.076s 11%: 0.034+0.86+0.088 ms clock, 0.41+0.14/2.0/1.4+1.0 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 31 @0.090s 10%: 0.050+0.84+0.022 ms clock, 0.60+0.16/1.7/2.3+0.27 ms cpu, 4->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 32 @0.094s 9%: 0.064+0.83+0.043 ms clock, 0.77+0.53/1.9/0.55+0.52 ms cpu, 3->4->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 33 @0.096s 9%: 0.065+0.63+0.023 ms clock, 0.78+0.42/1.4/1.4+0.27 ms cpu, 3->3->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 34 @0.099s 10%: 0.078+0.94+0.10 ms clock, 0.93+1.6/1.8/0.001+1.2 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 35 @0.102s 10%: 0.076+1.0+0.12 ms clock, 0.92+2.5/2.0/0.024+1.4 ms cpu, 3->4->2 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 36 @0.105s 10%: 0.073+1.1+0.086 ms clock, 0.87+1.7/2.3/1.4+1.0 ms cpu, 4->4->2 MB, 5 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 37 @0.113s 10%: 0.034+1.4+0.007 ms clock, 0.40+0.13/2.5/3.3+0.090 ms cpu, 4->4->2 MB, 5 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 38 @0.124s 24%: 24+3.1+0.073 ms clock, 297+7.2/6.5/0.42+0.88 ms cpu, 5->6->3 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 39 @0.160s 23%: 0.14+3.7+0.025 ms clock, 1.7+0.42/6.2/0.067+0.31 ms cpu, 6->7->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 40 @0.173s 22%: 2.9+5.3+0.046 ms clock, 35+0.30/5.9/0+0.55 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 41 @0.201s 20%: 0.091+5.8+0.010 ms clock, 1.0+0.23/10/0+0.12 ms cpu, 5->5->3 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 42 @0.253s 17%: 1.0+4.0+0.016 ms clock, 13+0.24/4.5/0+0.19 ms cpu, 5->5->3 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 43 @0.264s 16%: 0.039+1.1+0.042 ms clock, 0.47+0.22/2.5/3.5+0.51 ms cpu, 5->6->3 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 44 @0.412s 10%: 0.031+1.1+0.016 ms clock, 0.37+0.15/2.9/2.2+0.19 ms cpu, 6->7->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 45 @0.417s 10%: 0.055+1.0+0.010 ms clock, 0.66+0.15/2.2/3.3+0.12 ms cpu, 6->7->3 MB, 8 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 46 @2.296s 1%: 0.041+1.1+0.006 ms clock, 0.50+0.12/2.2/2.5+0.078 ms cpu, 5->5->3 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# runtime
+gc 1 @0.171s 1%: 0.034+9.8+0.019 ms clock, 0.40+0.36/24/39+0.23 ms cpu, 61->62->34 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.296s 1%: 0.027+10+0.019 ms clock, 0.32+0/24/51+0.23 ms cpu, 65->71->42 MB, 69 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.365s 1%: 0.040+3.5+0.016 ms clock, 0.48+0.14/9.2/19+0.20 ms cpu, 72->73->16 MB, 85 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 4 @0.411s 1%: 0.033+4.4+0.021 ms clock, 0.40+0.30/11/27+0.25 ms cpu, 29->29->22 MB, 34 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 5 @0.482s 1%: 0.034+6.0+0.017 ms clock, 0.41+0.16/16/40+0.21 ms cpu, 39->40->30 MB, 46 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 6 @0.589s 1%: 0.035+9.9+0.014 ms clock, 0.43+0.12/28/71+0.17 ms cpu, 53->53->37 MB, 62 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 7 @0.760s 1%: 0.037+12+0.017 ms clock, 0.45+0.34/35/78+0.21 ms cpu, 64->65->45 MB, 76 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 8 @0.948s 1%: 0.067+17+0.068 ms clock, 0.80+0.22/50/76+0.82 ms cpu, 86->90->61 MB, 92 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 9 @1.162s 1%: 0.094+23+0.040 ms clock, 1.1+0.68/67/108+0.48 ms cpu, 115->119->74 MB, 124 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 10 @1.397s 2%: 0.11+27+0.040 ms clock, 1.3+0.24/80/122+0.48 ms cpu, 138->143->86 MB, 150 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 11 @1.643s 2%: 0.040+21+0.016 ms clock, 0.48+0.36/62/159+0.20 ms cpu, 159->161->97 MB, 173 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 47 @2.427s 1%: 0.086+2.1+0.021 ms clock, 1.0+0.53/4.8/1.3+0.25 ms cpu, 5->6->3 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 48 @2.558s 1%: 0.36+2.6+0.011 ms clock, 4.3+1.1/4.9/0.10+0.14 ms cpu, 6->8->4 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 49 @2.654s 1%: 0.18+3.1+0.013 ms clock, 2.2+0.14/4.1/0+0.15 ms cpu, 7->8->3 MB, 8 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 50 @2.811s 1%: 0.17+3.2+0.009 ms clock, 2.1+0.43/4.1/0.51+0.11 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# crypto/internal/nistec/fiat
+gc 1 @0.299s 0%: 0.038+7.0+0.044 ms clock, 0.46+0.098/17/5.6+0.53 ms cpu, 61->63->16 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# syscall
+gc 1 @0.345s 0%: 0.076+13+0.061 ms clock, 0.92+0.32/30/0+0.74 ms cpu, 61->62->16 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 51 @3.094s 1%: 0.091+1.3+0.020 ms clock, 1.0+0.32/3.1/1.4+0.25 ms cpu, 5->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# reflect
+gc 1 @0.253s 0%: 0.029+7.6+0.037 ms clock, 0.34+0.19/21/17+0.44 ms cpu, 61->64->21 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.367s 1%: 0.091+8.7+0.035 ms clock, 1.0+0.49/25/34+0.43 ms cpu, 57->59->30 MB, 63 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.438s 1%: 1.6+12+0.042 ms clock, 19+0.87/34/35+0.50 ms cpu, 52->56->34 MB, 61 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# time
+gc 1 @0.259s 0%: 0.050+6.2+0.050 ms clock, 0.61+0.56/17/10+0.60 ms cpu, 61->62->20 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 52 @3.415s 1%: 0.087+1.2+0.023 ms clock, 1.0+1.2/2.9/2.3+0.28 ms cpu, 6->7->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 53 @3.488s 1%: 0.18+1.4+0.010 ms clock, 2.2+0.51/3.9/2.4+0.12 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 54 @3.567s 1%: 0.081+1.7+0.095 ms clock, 0.97+0.29/4.0/0.46+1.1 ms cpu, 5->6->3 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 55 @3.620s 1%: 0.049+1.5+0.008 ms clock, 0.59+0.20/4.2/0.82+0.10 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# crypto/sha1
+gc 1 @0.011s 1%: 0.044+0.72+0.023 ms clock, 0.53+0.20/1.6/0+0.28 ms cpu, 3->3->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 56 @3.682s 1%: 0.039+1.5+0.008 ms clock, 0.47+0.23/4.2/0.23+0.10 ms cpu, 5->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# crypto/sha256
+gc 1 @0.011s 2%: 0.027+10+0.027 ms clock, 0.33+0/5.5/0+0.32 ms cpu, 3->3->0 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# crypto/sha256
+gc 1 @0.008s 1%: 0.019+1.1+0.020 ms clock, 0.23+0/1.2/0+0.24 ms cpu, 3->4->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# crypto/sha512
+gc 1 @0.009s 1%: 0.021+1.6+0.037 ms clock, 0.26+0.28/0.78/0+0.44 ms cpu, 3->4->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 57 @3.853s 1%: 0.063+1.2+0.018 ms clock, 0.76+0.43/2.8/1.9+0.21 ms cpu, 5->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 58 @3.940s 1%: 0.045+0.93+0.009 ms clock, 0.54+0.19/2.2/2.9+0.11 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# vendor/golang.org/x/crypto/chacha20poly1305
+gc 1 @0.011s 1%: 0.019+0.88+0.019 ms clock, 0.23+0.12/1.2/0.24+0.23 ms cpu, 3->3->1 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 59 @4.045s 1%: 0.13+2.5+0.057 ms clock, 1.6+1.9/4.1/0+0.68 ms cpu, 5->7->4 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# encoding/json
+gc 1 @0.281s 0%: 0.067+9.7+0.026 ms clock, 0.80+0.97/28/12+0.32 ms cpu, 61->63->20 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# vendor/golang.org/x/text/unicode/norm
+gc 1 @0.332s 0%: 0.030+15+0.020 ms clock, 0.36+0/13/9.4+0.24 ms cpu, 61->65->21 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 60 @4.506s 1%: 0.047+1.1+0.018 ms clock, 0.57+0.18/2.7/2.3+0.22 ms cpu, 7->7->3 MB, 9 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# math/big
+gc 1 @0.344s 0%: 0.061+10+0.056 ms clock, 0.74+0.46/29/0.11+0.67 ms cpu, 61->62->19 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 61 @4.624s 1%: 0.065+4.2+0.008 ms clock, 0.78+0.26/3.6/0.53+0.097 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# vendor/golang.org/x/net/idna
+gc 1 @0.200s 0%: 0.035+7.8+0.019 ms clock, 0.42+1.1/22/14+0.23 ms cpu, 61->61->17 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 62 @4.883s 1%: 0.033+0.91+0.020 ms clock, 0.40+0.15/2.2/3.2+0.24 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# net
+gc 1 @0.311s 2%: 7.7+5.4+0.011 ms clock, 92+0/0.48/0+0.14 ms cpu, 3->4->0 MB, 4 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# net
+gc 1 @0.169s 0%: 0.039+3.4+0.014 ms clock, 0.47+0.13/9.3/20+0.17 ms cpu, 61->61->17 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.327s 0%: 0.072+9.6+0.037 ms clock, 0.87+0.31/27/46+0.44 ms cpu, 61->63->31 MB, 63 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.412s 1%: 0.10+9.4+0.035 ms clock, 1.2+0.23/25/44+0.42 ms cpu, 57->59->35 MB, 63 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 4 @0.499s 1%: 0.078+11+0.029 ms clock, 0.93+0.15/31/46+0.34 ms cpu, 64->67->40 MB, 71 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 63 @5.582s 0%: 0.035+0.94+0.006 ms clock, 0.42+0.064/2.0/3.2+0.075 ms cpu, 6->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# crypto/x509
+gc 1 @0.178s 1%: 0.031+8.8+0.033 ms clock, 0.37+0.50/25/23+0.40 ms cpu, 61->62->20 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# crypto/tls
+gc 1 @0.169s 0%: 0.076+3.7+0.019 ms clock, 0.91+0.35/10/20+0.23 ms cpu, 61->61->18 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.336s 0%: 0.076+8.2+0.025 ms clock, 0.92+0.80/23/34+0.30 ms cpu, 61->63->33 MB, 63 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.417s 1%: 0.086+10+0.033 ms clock, 1.0+0.22/29/43+0.40 ms cpu, 60->63->38 MB, 66 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 4 @0.509s 1%: 0.10+11+0.037 ms clock, 1.3+0.14/32/48+0.44 ms cpu, 70->73->44 MB, 77 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# net/http
+gc 1 @0.166s 0%: 0.035+1.4+0.017 ms clock, 0.42+0.35/3.4/4.6+0.20 ms cpu, 61->61->8 MB, 64 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.340s 0%: 0.032+6.0+0.022 ms clock, 0.39+0.54/16/38+0.27 ms cpu, 60->61->31 MB, 63 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.489s 0%: 0.039+10+0.019 ms clock, 0.47+1.2/27/66+0.23 ms cpu, 60->61->43 MB, 63 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 4 @0.640s 1%: 0.074+15+0.033 ms clock, 0.89+0.61/45/79+0.39 ms cpu, 84->86->55 MB, 88 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 5 @0.822s 1%: 0.10+17+0.026 ms clock, 1.2+0.26/50/81+0.32 ms cpu, 105->108->65 MB, 111 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 6 @1.030s 1%: 0.10+16+0.030 ms clock, 1.2+0/48/105+0.36 ms cpu, 123->125->72 MB, 131 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 64 @7.710s 0%: 0.032+0.98+0.022 ms clock, 0.39+0.11/2.1/2.8+0.26 ms cpu, 5->6->3 MB, 7 MB goal, 0 MB stacks, 0 MB globals, 12 P
+# github.com/353words/gc-latency/httpd
+gc 1 @0.001s 5%: 0.013+1.4+0.010 ms clock, 0.16+0.065/2.0/0.043+0.12 ms cpu, 6->8->7 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.007s 4%: 0.016+0.97+0.019 ms clock, 0.19+0.088/1.8/0.83+0.22 ms cpu, 14->14->13 MB, 14 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.102s 0%: 0.035+2.2+0.015 ms clock, 0.42+0.98/4.9/1.2+0.18 ms cpu, 25->25->13 MB, 26 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 1 @0.010s 2%: 0.017+1.9+0.17 ms clock, 0.20+0.14/2.0/0+2.1 ms cpu, 6->6->4 MB, 6 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 2 @0.022s 3%: 0.013+2.0+0.17 ms clock, 0.16+0.13/4.4/0.25+2.0 ms cpu, 9->9->7 MB, 9 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 3 @0.040s 4%: 0.018+5.2+0.22 ms clock, 0.21+0.20/10/0+2.6 ms cpu, 18->18->15 MB, 18 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 4 @0.077s 4%: 0.022+7.2+0.23 ms clock, 0.26+0.27/19/0+2.7 ms cpu, 36->36->31 MB, 36 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 5 @0.166s 4%: 0.026+13+0.26 ms clock, 0.31+0.45/38/5.6+3.1 ms cpu, 73->73->62 MB, 73 MB goal, 0 MB stacks, 0 MB globals, 12 P
+gc 6 @0.368s 3%: 0.029+31+0.18 ms clock, 0.35+14/48/15+2.2 ms cpu, 146->146->123 MB, 146 MB goal, 0 MB stacks, 0 MB globals, 12 P
+2023/08/18 08:51:21 info: starting server with 1000000 users on :8080
+gc 7 @0.654s 2%: 0.20+45+0.006 ms clock, 2.5+0/89/0+0.074 ms cpu, 128->128->87 MB, 248 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 8 @0.802s 3%: 0.18+31+0.009 ms clock, 2.2+0/92/39+0.11 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 9 @0.935s 3%: 0.28+13+0.006 ms clock, 3.4+0/39/64+0.080 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 10 @1.051s 3%: 0.18+24+0.011 ms clock, 2.1+0/69/133+0.14 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 11 @1.178s 3%: 0.10+40+0.006 ms clock, 1.2+0/80/0+0.072 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 12 @1.320s 3%: 0.27+47+0.007 ms clock, 3.3+0/93/0+0.092 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 13 @1.469s 3%: 0.098+35+0.007 ms clock, 1.1+0/64/34+0.091 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 14 @1.607s 3%: 0.18+40+0.007 ms clock, 2.2+0/81/0+0.086 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 15 @1.749s 4%: 0.15+43+0.006 ms clock, 1.8+0/86/0+0.080 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 16 @1.895s 3%: 0.16+59+0.005 ms clock, 1.9+0/59/0.005+0.071 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 17 @2.055s 3%: 0.14+15+0.005 ms clock, 1.7+0/44/64+0.069 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 18 @2.173s 4%: 0.21+24+0.008 ms clock, 2.5+0/71/90+0.097 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 19 @2.300s 4%: 0.18+46+0.006 ms clock, 2.1+0/92/0+0.072 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 20 @2.448s 4%: 0.10+40+0.005 ms clock, 1.2+0/80/0+0.066 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 21 @2.591s 4%: 0.10+45+0.006 ms clock, 1.2+0/90/0.19+0.082 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 22 @2.737s 4%: 0.15+41+0.006 ms clock, 1.8+0/82/0.005+0.074 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 23 @2.881s 4%: 0.099+42+0.006 ms clock, 1.1+0/84/0.023+0.082 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 24 @3.025s 4%: 0.087+40+0.005 ms clock, 1.0+0/81/0+0.063 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 25 @3.168s 4%: 0.15+40+0.005 ms clock, 1.8+0/81/0+0.067 ms cpu, 87->87->87 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 26 @3.310s 4%: 0.088+52+0.046 ms clock, 1.0+2.0/151/44+0.55 ms cpu, 97->107->98 MB, 175 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 27 @3.470s 4%: 0.11+21+0.18 ms clock, 1.3+2.9/51/62+2.2 ms cpu, 137->142->93 MB, 196 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 28 @3.607s 4%: 0.10+12+0.022 ms clock, 1.2+2.8/36/67+0.27 ms cpu, 144->145->89 MB, 186 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 29 @3.730s 4%: 0.31+37+0.26 ms clock, 3.7+1.7/95/5.3+3.2 ms cpu, 139->151->100 MB, 179 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 30 @3.878s 4%: 0.28+46+0.17 ms clock, 3.4+1.4/100/4.8+2.0 ms cpu, 148->163->103 MB, 200 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 31 @4.035s 4%: 0.22+38+0.13 ms clock, 2.7+2.1/98/10+1.5 ms cpu, 151->163->100 MB, 206 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 32 @4.184s 4%: 0.14+35+0.065 ms clock, 1.7+1.4/99/9.8+0.78 ms cpu, 149->160->99 MB, 202 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 33 @4.331s 4%: 0.20+43+0.048 ms clock, 2.5+2.3/76/31+0.58 ms cpu, 148->163->102 MB, 199 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 34 @4.486s 4%: 0.20+12+0.009 ms clock, 2.4+2.1/36/68+0.10 ms cpu, 149->151->89 MB, 205 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 35 @4.608s 4%: 0.22+26+0.097 ms clock, 2.6+1.9/33/74+1.1 ms cpu, 137->144->95 MB, 179 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 36 @4.743s 4%: 0.23+16+0.067 ms clock, 2.7+2.3/42/64+0.81 ms cpu, 143->146->91 MB, 191 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 37 @4.869s 4%: 0.14+25+0.096 ms clock, 1.7+1.6/54/53+1.1 ms cpu, 139->146->95 MB, 182 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 38 @5.006s 4%: 0.25+23+0.008 ms clock, 3.0+1.9/68/36+0.10 ms cpu, 144->150->94 MB, 190 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 39 @5.144s 4%: 0.25+19+0.24 ms clock, 3.0+1.8/30/76+2.8 ms cpu, 143->147->92 MB, 188 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 40 @5.276s 4%: 0.22+23+0.009 ms clock, 2.6+2.5/54/50+0.11 ms cpu, 141->147->94 MB, 185 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 41 @5.411s 4%: 0.24+25+0.10 ms clock, 2.8+2.4/61/42+1.2 ms cpu, 143->149->94 MB, 188 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 42 @5.549s 4%: 0.27+12+0.24 ms clock, 3.2+2.6/33/67+2.9 ms cpu, 144->145->89 MB, 189 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 43 @5.671s 4%: 0.11+25+0.11 ms clock, 1.3+0.50/33/69+1.3 ms cpu, 136->142->94 MB, 178 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 44 @5.812s 4%: 0.18+23+0.007 ms clock, 2.2+2.2/69/40+0.084 ms cpu, 146->152->94 MB, 189 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 45 @5.948s 4%: 0.24+37+0.045 ms clock, 2.8+1.2/82/11+0.55 ms cpu, 143->156->100 MB, 188 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 46 @6.093s 4%: 0.18+28+0.26 ms clock, 2.2+0.45/84/8.5+3.2 ms cpu, 147->155->97 MB, 201 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 47 @6.232s 4%: 0.10+16+0.011 ms clock, 1.2+1.7/45/61+0.13 ms cpu, 145->147->90 MB, 194 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 48 @6.365s 4%: 0.13+43+0.086 ms clock, 1.6+2.0/89/10+1.0 ms cpu, 143->157->102 MB, 182 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 49 @6.517s 4%: 0.20+29+0.083 ms clock, 2.4+2.6/53/46+0.99 ms cpu, 149->157->96 MB, 206 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 50 @6.655s 4%: 0.19+33+0.082 ms clock, 2.3+1.9/75/32+0.99 ms cpu, 144->154->98 MB, 193 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 51 @6.802s 4%: 0.16+28+0.15 ms clock, 1.9+1.9/52/63+1.8 ms cpu, 149->157->95 MB, 197 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 52 @6.939s 4%: 0.23+22+0.008 ms clock, 2.8+0.73/50/65+0.10 ms cpu, 144->149->93 MB, 192 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 53 @7.070s 4%: 0.13+43+0.17 ms clock, 1.6+2.0/51/48+2.0 ms cpu, 140->154->102 MB, 187 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 54 @7.221s 4%: 0.12+15+0.30 ms clock, 1.4+0.96/43/57+3.6 ms cpu, 149->150->89 MB, 205 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 55 @7.344s 4%: 0.21+34+0.009 ms clock, 2.6+1.9/94/17+0.11 ms cpu, 136->147->99 MB, 180 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 56 @7.492s 4%: 0.098+35+0.066 ms clock, 1.1+2.3/89/16+0.80 ms cpu, 149->159->98 MB, 198 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 57 @7.641s 4%: 0.26+19+0.035 ms clock, 3.2+2.0/52/54+0.42 ms cpu, 149->153->92 MB, 198 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 58 @7.771s 4%: 0.26+36+0.089 ms clock, 3.1+6.3/75/39+1.0 ms cpu, 142->153->99 MB, 184 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 59 @7.926s 4%: 0.23+21+0.008 ms clock, 2.8+2.9/48/58+0.10 ms cpu, 151->156->93 MB, 199 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 60 @8.064s 4%: 0.27+15+0.006 ms clock, 3.3+0/45/57+0.082 ms cpu, 146->148->90 MB, 187 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 61 @8.189s 4%: 0.25+27+0.062 ms clock, 3.0+2.4/65/43+0.75 ms cpu, 139->146->95 MB, 181 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 62 @8.328s 4%: 0.13+32+0.10 ms clock, 1.6+2.0/69/35+1.2 ms cpu, 145->154->98 MB, 191 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 63 @8.469s 4%: 0.10+27+0.008 ms clock, 1.2+1.4/50/57+0.097 ms cpu, 146->153->95 MB, 196 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 64 @8.605s 4%: 0.10+25+0.29 ms clock, 1.3+1.3/51/79+3.5 ms cpu, 143->149->95 MB, 192 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 65 @8.740s 4%: 0.29+18+0.062 ms clock, 3.5+1.6/49/51+0.75 ms cpu, 143->146->91 MB, 190 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 66 @8.875s 4%: 0.12+33+0.077 ms clock, 1.5+1.5/84/15+0.93 ms cpu, 141->152->98 MB, 184 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 67 @9.018s 4%: 0.21+52+0.18 ms clock, 2.5+2.8/105/3.6+2.1 ms cpu, 146->165->106 MB, 198 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 68 @9.182s 4%: 0.22+26+0.10 ms clock, 2.7+4.0/39/61+1.3 ms cpu, 155->162->95 MB, 213 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 69 @9.322s 4%: 0.28+31+0.58 ms clock, 3.4+2.5/69/37+7.0 ms cpu, 145->154->97 MB, 190 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 70 @9.462s 4%: 0.29+30+0.025 ms clock, 3.5+3.1/86/17+0.31 ms cpu, 144->152->97 MB, 194 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 71 @9.610s 4%: 0.11+22+0.063 ms clock, 1.3+0.034/59/48+0.76 ms cpu, 149->153->93 MB, 194 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 72 @9.740s 4%: 0.25+48+0.064 ms clock, 3.0+1.9/88/17+0.77 ms cpu, 140->157->105 MB, 186 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 73 @9.898s 4%: 0.23+33+0.007 ms clock, 2.7+2.0/89/6.5+0.093 ms cpu, 153->163->98 MB, 210 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 74 @10.042s 4%: 0.25+27+0.12 ms clock, 3.0+1.6/58/44+1.4 ms cpu, 148->155->95 MB, 198 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 75 @10.180s 4%: 0.23+20+0.30 ms clock, 2.8+1.4/52/52+3.7 ms cpu, 145->149->93 MB, 191 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 76 @10.311s 4%: 0.090+21+0.075 ms clock, 1.0+1.1/48/53+0.90 ms cpu, 142->146->92 MB, 186 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 77 @10.441s 4%: 0.18+17+0.087 ms clock, 2.1+1.1/46/70+1.0 ms cpu, 140->142->90 MB, 184 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 78 @10.568s 4%: 0.27+29+0.082 ms clock, 3.2+0.70/67/45+0.98 ms cpu, 139->147->96 MB, 181 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 79 @10.705s 4%: 0.045+29+0.31 ms clock, 0.54+2.2/84/31+3.7 ms cpu, 143->151->96 MB, 193 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 80 @10.847s 4%: 0.13+16+0.009 ms clock, 1.6+4.9/49/48+0.11 ms cpu, 147->150->91 MB, 194 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 81 @10.988s 4%: 0.11+32+0.077 ms clock, 1.3+2.4/43/81+0.93 ms cpu, 145->155->97 MB, 183 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 82 @11.129s 4%: 0.13+32+0.088 ms clock, 1.5+2.2/80/29+1.0 ms cpu, 144->154->98 MB, 196 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 83 @11.271s 4%: 0.11+33+0.28 ms clock, 1.3+2.0/83/13+3.4 ms cpu, 147->157->98 MB, 196 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 84 @11.418s 4%: 0.40+30+0.069 ms clock, 4.8+2.5/78/47+0.83 ms cpu, 148->157->97 MB, 197 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 85 @11.557s 4%: 0.21+18+0.038 ms clock, 2.5+0.91/51/66+0.46 ms cpu, 145->148->91 MB, 195 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 86 @11.684s 4%: 0.10+32+0.29 ms clock, 1.2+2.0/78/18+3.5 ms cpu, 139->149->98 MB, 183 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 87 @11.823s 4%: 0.18+15+0.030 ms clock, 2.1+3.8/43/61+0.36 ms cpu, 146->148->90 MB, 197 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 88 @11.948s 4%: 0.24+23+0.024 ms clock, 2.9+1.6/46/68+0.29 ms cpu, 138->144->94 MB, 181 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 89 @12.079s 4%: 0.25+19+0.095 ms clock, 3.0+1.4/43/56+1.1 ms cpu, 142->146->92 MB, 188 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 90 @12.206s 4%: 0.27+27+0.010 ms clock, 3.2+1.9/80/25+0.12 ms cpu, 139->146->95 MB, 185 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 91 @12.343s 4%: 0.28+39+0.35 ms clock, 3.4+2.6/90/15+4.3 ms cpu, 144->156->100 MB, 192 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 92 @12.496s 4%: 0.13+23+0.10 ms clock, 1.6+2.5/49/58+1.2 ms cpu, 150->156->94 MB, 201 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 93 @12.628s 4%: 0.15+33+0.10 ms clock, 1.8+2.2/54/56+1.2 ms cpu, 141->151->97 MB, 188 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 94 @12.772s 4%: 0.28+29+0.12 ms clock, 3.3+3.0/75/40+1.4 ms cpu, 146->155->96 MB, 196 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 95 @12.912s 4%: 0.23+37+0.077 ms clock, 2.8+1.9/102/15+0.92 ms cpu, 145->158->100 MB, 194 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 96 @13.058s 4%: 0.27+22+0.028 ms clock, 3.2+2.3/65/38+0.34 ms cpu, 149->155->94 MB, 201 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 97 @13.191s 4%: 0.29+35+0.11 ms clock, 3.5+2.5/92/7.9+1.3 ms cpu, 141->152->99 MB, 188 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 98 @13.335s 4%: 0.067+14+0.006 ms clock, 0.81+0/43/46+0.081 ms cpu, 114->114->88 MB, 199 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 99 @13.454s 4%: 0.057+10+0.008 ms clock, 0.69+0/30/79+0.099 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 100 @13.567s 4%: 0.16+33+0.006 ms clock, 1.9+0/66/0.22+0.083 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 101 @13.701s 4%: 0.13+10+0.006 ms clock, 1.6+0/29/69+0.082 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 102 @13.814s 4%: 0.060+26+0.008 ms clock, 0.73+0/40/32+0.098 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 103 @13.942s 4%: 0.11+10+0.006 ms clock, 1.3+0/28/72+0.081 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 104 @14.054s 4%: 0.14+11+0.008 ms clock, 1.7+0/31/65+0.098 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 105 @14.167s 4%: 0.14+25+0.006 ms clock, 1.7+0/55/28+0.078 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 106 @14.294s 4%: 0.048+38+0.008 ms clock, 0.58+0/76/0.44+0.10 ms cpu, 88->88->88 MB, 177 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 107 @14.435s 4%: 0.17+37+0.007 ms clock, 2.1+0/72/37+0.084 ms cpu, 88->88->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 108 @14.574s 4%: 0.15+34+0.009 ms clock, 1.8+0/85/27+0.10 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 109 @14.711s 4%: 0.098+18+0.006 ms clock, 1.1+0/43/69+0.077 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 110 @14.832s 4%: 0.13+52+0.008 ms clock, 1.5+0/104/0.23+0.098 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 111 @14.986s 4%: 0.13+31+0.007 ms clock, 1.6+0/53/50+0.084 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 112 @15.120s 4%: 0.16+42+0.006 ms clock, 1.9+0/85/0.30+0.080 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 113 @15.265s 4%: 0.084+37+0.006 ms clock, 1.0+0/75/0.25+0.076 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 114 @15.404s 4%: 0.15+33+0.005 ms clock, 1.8+0/60/33+0.069 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 115 @15.539s 4%: 0.11+14+0.006 ms clock, 1.3+0/41/80+0.075 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)
+gc 116 @15.656s 4%: 0.054+44+0.006 ms clock, 0.65+0/88/0.15+0.080 ms cpu, 87->87->87 MB, 176 MB goal, 0 MB stacks, 0 MB globals, 12 P (forced)

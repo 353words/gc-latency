@@ -1,28 +1,43 @@
 all:
 	$(error please pick a target)
 
+bench:
+	go clean -cache -testcache
+	go test -bench . -count 5
+
+
+
 url = http://localhost:8080/users/353
 stress:
 	@ls -l users | awk '{print $$NF}' # current users implementation
 	curl -f $(url)  # fail is server is not up
 	hey -z 10s $(url)
 
-one:
-	curl $(url)
+ping:
+	curl -q $(url)
+
+# clean cache since it doesn't play nice with symlinks
+clean:
+	go clean -cache -testcache
 
 map:
 	ln -snf users_map users
-	go run httpd.go
 
 slice:
 	ln -snf users_slice users
-	go run httpd.go
 
 str:
 	ln -snf users_str users
-	go run httpd.go
 
-bench:
+httpd: clean
+	go run ./httpd
+
+trace-httpd: clean
+	$(MAKE) $(kind)
+	GODEBUG=gctrace=1 go run ./httpd 2>out/http-$(kind).trace
+
+
+run-manual:
 	@echo === map ===
 	@ln -snf users_map users
 	go run ./manual_gc/

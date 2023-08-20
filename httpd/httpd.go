@@ -13,11 +13,13 @@ import (
 	"github.com/353words/gc-latency/users"
 )
 
-type Server struct {
-	db *users.DB
-}
+const size = 1_000_000
 
-func (s *Server) userHandler(w http.ResponseWriter, r *http.Request) {
+var (
+	db = users.NewDB(size)
+)
+
+func userHandler(w http.ResponseWriter, r *http.Request) {
 	const prefix = "/users/"
 	id, err := strconv.Atoi(r.URL.Path[len(prefix):])
 	if err != nil {
@@ -25,7 +27,7 @@ func (s *Server) userHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	user, ok := s.db.ByID(id)
+	user, ok := db.ByID(id)
 	if !ok {
 		http.Error(w, "unknown user", http.StatusNotFound)
 		return
@@ -64,11 +66,7 @@ func GCer() {
 }
 
 func main() {
-	const size = 1_000_000
-	srv := Server{
-		db: users.NewDB(size),
-	}
-	http.HandleFunc("/users/", srv.userHandler)
+	http.HandleFunc("/users/", userHandler)
 
 	go GCer()
 
