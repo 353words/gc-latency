@@ -18,3 +18,10 @@ for col in map_df.columns:
     print('\tmap  : {:12.3f}'.format(map_df[col].mean()))
     print('\tslice: {:12.3f}'.format(slice_df[col].mean()))
     print('\tstr  : {:12.3f}'.format(str_df[col].mean()))
+
+
+mark_cols = [col for col in map_df.columns if col.startswith('cpu.mark_')]
+print('Mark time')
+print('map  : {:12.3f}'.format(map_df[mark_cols].sum(axis=1).mean()))
+print('slice: {:12.3f}'.format(slice_df[mark_cols].sum(axis=1).mean()))
+print('str  : {:12.3f}'.format(str_df[mark_cols].sum(axis=1).mean()))
