@@ -23,3 +23,14 @@ And for `make stress` I see:
 - map  : Requests/sec:	139456.5474
 - slice: Requests/sec:	131119.3114
 - str  : Requests/sec:	141903.6378
+
+---
+## Trace
+
+- Add import to `net/http/pprof`
+- `go run ./httpd`
+- `hey -z 10s http://localhost:8080/users/353`
+- `curl -o trace.out http://localhost:8080/debug/pprof/trace?seconds=5`
+- `go tool trace -http=:8888 trace.out`
+    - trace.png
+- `1,111,313ns` -> 1.1ms
