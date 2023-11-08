@@ -33,3 +33,7 @@ func (db *DB) ByID(id int) (User, bool) {
 	user, ok := db.users[id]
 	return user, ok
 }
+
+func (*DB) Kind() string {
+	return "map"
+}
