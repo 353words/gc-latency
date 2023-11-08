@@ -1,0 +1,50 @@
+users_slice
+curl -f http://localhost:8080/users/353  # fail is server is not up
+{"id":353,"name":"user-000353","size":1048576}
+hey -z 10s http://localhost:8080/users/353
+
+Summary:
+  Total:	10.0058 secs
+  Slowest:	0.0474 secs
+  Fastest:	0.0001 secs
+  Average:	0.0051 secs
+  Requests/sec:	9775.1236
+  
+  Total data:	4596976 bytes
+  Size/request:	47 bytes
+
+Response time histogram:
+  0.000 [1]	|
+  0.005 [56610]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.010 [30597]	|■■■■■■■■■■■■■■■■■■■■■■
+  0.014 [7749]	|■■■■■
+  0.019 [2171]	|■■
+  0.024 [504]	|
+  0.028 [132]	|
+  0.033 [25]	|
+  0.038 [13]	|
+  0.043 [5]	|
+  0.047 [1]	|
+
+
+Latency distribution:
+  10% in 0.0013 secs
+  25% in 0.0023 secs
+  50% in 0.0041 secs
+  75% in 0.0070 secs
+  90% in 0.0098 secs
+  95% in 0.0123 secs
+  99% in 0.0179 secs
+
+Details (average, fastest, slowest):
+  DNS+dialup:	0.0000 secs, 0.0001 secs, 0.0474 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0042 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0054 secs
+  resp wait:	0.0050 secs, 0.0001 secs, 0.0434 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0051 secs
+
+Status code distribution:
+  [200]	97808 responses
+
+
+

@@ -7,9 +7,7 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 	"os"
-	"runtime"
 	"strconv"
-	"time"
 
 	"github.com/353words/gc-latency/users"
 )
@@ -34,45 +32,24 @@ func userHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	data := make([]byte, 1<<20)
+
 	w.Header().Set("Content-Type", "application/json")
 	out := map[string]any{
 		"name": user.Name,
 		"id":   id,
+		"size": len(data),
 	}
 	if json.NewEncoder(w).Encode(out); err != nil {
 		log.Printf("error: can't encode user - %s", err)
 	}
 }
 
-/* Generate random data so it'll trigger GC
-func spammer() {
-	var s []float64
-	for {
-		time.Sleep(time.Millisecond)
-
-		s = make([]float64, rand.Intn(100_000))
-		for i := 0; i < len(s); i++ {
-			s[i] = rand.Float64()
-		}
-	}
-}
-*/
-
-// Trigger GC from time to time
-func GCer() {
-	for {
-		time.Sleep(100 * time.Millisecond)
-		runtime.GC()
-	}
-}
-
 func main() {
 	http.HandleFunc("/users/", userHandler)
 
-	go GCer()
-
 	addr := ":8080"
-	log.Printf("info: starting server with %d users on %s", size, addr)
+	log.Printf("info: starting server with %d %s users on %s", size, db.Kind(), addr)
 
 	if err := http.ListenAndServe(addr, nil); !errors.Is(err, http.ErrServerClosed) {
 		log.Printf("error: can't run server - %s", err)

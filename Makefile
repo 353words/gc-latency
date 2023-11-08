@@ -5,8 +5,6 @@ bench:
 	go clean -cache -testcache
 	go test -bench . -count 5
 
-
-
 url = http://localhost:8080/users/353
 stress:
 	@ls -l users | awk '{print $$NF}' # current users implementation
@@ -40,27 +38,33 @@ trace-httpd: clean
 run-manual:
 	@echo === map ===
 	@ln -snf users_map users
+	@go clean -cache -testcache
 	go run ./manual_gc/
 	
 	@echo === slice ===
 	@ln -snf users_slice users
+	@go clean -cache -testcache
 	go run ./manual_gc/
 	
 	@echo === str ===
 	@ln -snf users_str users
+	@go clean -cache -testcache
 	go run ./manual_gc/
 	
 trace:
 	@echo === map ===
 	@ln -snf users_map users
+	@go clean -cache -testcache
 	GODEBUG=gctrace=1 go run ./manual_gc 2>out/map.trace
 	
 	@echo === slice ===
 	@ln -snf users_slice users
+	@go clean -cache -testcache
 	GODEBUG=gctrace=1 go run ./manual_gc 2>out/slice.trace
 	
 	@echo === str ===
 	@ln -snf users_str users
+	@go clean -cache -testcache
 	GODEBUG=gctrace=1 go run ./manual_gc 2>out/str.trace
 
 json:

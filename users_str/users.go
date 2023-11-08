@@ -54,3 +54,7 @@ func (db *DB) ByID(id int) (User, bool) {
 
 	return User{ID: id, Name: name}, true
 }
+
+func (*DB) Kind() string {
+	return "string"
+}

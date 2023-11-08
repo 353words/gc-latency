@@ -35,3 +35,7 @@ func (db *DB) ByID(id int) (User, bool) {
 
 	return db.users[id], true
 }
+
+func (*DB) Kind() string {
+	return "slice"
+}
