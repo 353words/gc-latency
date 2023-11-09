@@ -5,11 +5,11 @@ bench:
 	go clean -cache -testcache
 	go test -bench . -count 5
 
-url = http://localhost:8080/users/353
+url = http://localhost:8080/user/972
 stress:
-	@ls -l users | awk '{print $$NF}' # current users implementation
+	@echo using $(shell ./impl.sh)
 	curl -f $(url)  # fail is server is not up
-	hey -z 10s $(url)
+	hey -z 10s $(url) | tee out/hey-$(shell ./impl.sh).txt
 
 ping:
 	curl -q $(url)
@@ -30,9 +30,11 @@ str:
 httpd: clean
 	go run ./httpd
 
+exe = /tmp/httpd
 trace-httpd: clean
 	$(MAKE) $(kind)
-	GODEBUG=gctrace=1 go run ./httpd 2>out/http-$(kind).trace
+	go build -o $(exe) ./httpd
+	GODEBUG=gctrace=1 ${exe}
 
 
 run-manual:

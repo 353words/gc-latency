@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"log"
+	"log/slog"
 	"net/http"
 	_ "net/http/pprof"
 	"os"
@@ -12,46 +13,70 @@ import (
 	"github.com/353words/gc-latency/users"
 )
 
-const size = 1_000_000
+type API struct {
+	db  *users.DB
+	log *slog.Logger
+}
 
-var (
-	db = users.NewDB(size)
+const (
+	userPrefix = "/user/"
 )
 
-func userHandler(w http.ResponseWriter, r *http.Request) {
-	const prefix = "/users/"
-	id, err := strconv.Atoi(r.URL.Path[len(prefix):])
-	if err != nil {
-		http.Error(w, "bad user ID", http.StatusBadRequest)
-		return
+func (a *API) UserHandler(w http.ResponseWriter, r *http.Request) {
+	n := len(userPrefix)
+	if len(r.URL.Path) <= n {
+		a.log.Warn("bad request", "error", "missing uid")
+		http.Error(w, "missing uid", http.StatusBadRequest)
 	}
 
-	user, ok := db.ByID(id)
+	uid, err := strconv.Atoi(r.URL.Path[len(userPrefix):])
+	if err != nil {
+		a.log.Warn("bad request", "error", "missing uid")
+		http.Error(w, "missing parameter", http.StatusBadRequest)
+	}
+	user, ok := a.db.ByID(uid)
 	if !ok {
+		a.log.Warn("unknown user", "uid", uid)
 		http.Error(w, "unknown user", http.StatusNotFound)
 		return
 	}
 
-	data := make([]byte, 1<<20)
+	size, err := strconv.Atoi(r.URL.Query().Get("size"))
+	if err != nil || size <= 0 {
+		size = 1 << 20 // 1MB
+	}
+	// Simulate work generating data on heap
+	data := make([]byte, size)
 
 	w.Header().Set("Content-Type", "application/json")
 	out := map[string]any{
 		"name": user.Name,
-		"id":   id,
+		"id":   uid,
 		"size": len(data),
 	}
-	if json.NewEncoder(w).Encode(out); err != nil {
+	if err := json.NewEncoder(w).Encode(out); err != nil {
 		log.Printf("error: can't encode user - %s", err)
 	}
 }
 
 func main() {
-	http.HandleFunc("/users/", userHandler)
+
+	const size = 1_000_000
+	api := API{
+		db:  users.NewDB(size),
+		log: slog.New(slog.NewTextHandler(os.Stdout, nil)),
+	}
+	mux := http.NewServeMux()
+	mux.HandleFunc(userPrefix, api.UserHandler)
 
 	addr := ":8080"
-	log.Printf("info: starting server with %d %s users on %s", size, db.Kind(), addr)
+	srv := http.Server{
+		Addr:    addr,
+		Handler: mux,
+	}
 
-	if err := http.ListenAndServe(addr, nil); !errors.Is(err, http.ErrServerClosed) {
+	api.log.Info("server starting", "num users", size, "kind", api.db.Kind(), "addr", addr)
+	if err := srv.ListenAndServe(); !errors.Is(err, http.ErrServerClosed) {
 		log.Printf("error: can't run server - %s", err)
 		os.Exit(1)
 	}

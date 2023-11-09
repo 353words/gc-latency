@@ -1,50 +1,46 @@
-users_str
-curl -f http://localhost:8080/users/353  # fail is server is not up
-{"id":353,"name":"user-000353","size":1048576}
-hey -z 10s http://localhost:8080/users/353
 
 Summary:
-  Total:	10.0053 secs
-  Slowest:	0.0380 secs
-  Fastest:	0.0001 secs
-  Average:	0.0047 secs
-  Requests/sec:	10572.3300
+  Total:	10.0076 secs
+  Slowest:	0.0548 secs
+  Fastest:	0.0002 secs
+  Average:	0.0060 secs
+  Requests/sec:	8365.5287
   
-  Total data:	4971613 bytes
+  Total data:	3934793 bytes
   Size/request:	47 bytes
 
 Response time histogram:
   0.000 [1]	|
-  0.004 [60550]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-  0.008 [18177]	|■■■■■■■■■■■■
-  0.011 [19259]	|■■■■■■■■■■■■■
-  0.015 [5011]	|■■■
-  0.019 [2018]	|■
-  0.023 [514]	|
-  0.027 [178]	|
-  0.030 [51]	|
-  0.034 [12]	|
-  0.038 [8]	|
+  0.006 [49392]	|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+  0.011 [19330]	|■■■■■■■■■■■■■■■■
+  0.017 [10440]	|■■■■■■■■
+  0.022 [3254]	|■■■
+  0.028 [944]	|■
+  0.033 [280]	|
+  0.038 [58]	|
+  0.044 [16]	|
+  0.049 [3]	|
+  0.055 [1]	|
 
 
 Latency distribution:
-  10% in 0.0009 secs
-  25% in 0.0013 secs
-  50% in 0.0023 secs
-  75% in 0.0078 secs
-  90% in 0.0103 secs
-  95% in 0.0132 secs
-  99% in 0.0180 secs
+  10% in 0.0010 secs
+  25% in 0.0016 secs
+  50% in 0.0031 secs
+  75% in 0.0096 secs
+  90% in 0.0134 secs
+  95% in 0.0171 secs
+  99% in 0.0238 secs
 
 Details (average, fastest, slowest):
-  DNS+dialup:	0.0000 secs, 0.0001 secs, 0.0380 secs
-  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0065 secs
-  req write:	0.0000 secs, 0.0000 secs, 0.0036 secs
-  resp wait:	0.0046 secs, 0.0001 secs, 0.0376 secs
-  resp read:	0.0001 secs, 0.0000 secs, 0.0028 secs
+  DNS+dialup:	0.0000 secs, 0.0002 secs, 0.0548 secs
+  DNS-lookup:	0.0000 secs, 0.0000 secs, 0.0052 secs
+  req write:	0.0000 secs, 0.0000 secs, 0.0059 secs
+  resp wait:	0.0059 secs, 0.0001 secs, 0.0546 secs
+  resp read:	0.0001 secs, 0.0000 secs, 0.0033 secs
 
 Status code distribution:
-  [200]	105779 responses
+  [200]	83719 responses
 
 
 
